@@ -57,3 +57,14 @@ body {
   color: #032f61;
   margin: 0;
 }
+
+/* 
+    The .tab.active class highlights the currently selected tab, 
+    giving it a white background and a top border to differentiate from others. 
+  */
+.tab.active {
+  font-weight: bold;
+  background: white;
+  border-top: 3px solid #06a7a9;
+  border-bottom: none;
+}

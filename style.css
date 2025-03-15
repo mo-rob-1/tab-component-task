@@ -38,3 +38,22 @@ body {
   border-bottom: none;
   width: 100%;
 }
+
+/* 
+    The .tab class defines the styling for each individual tab button. 
+    Cursor: pointer for better UX and transition for a smooth hover effect. 
+  */
+.tab {
+  padding: 15px 30px;
+  cursor: pointer;
+  border: none;
+  background: #e1e8ef;
+  font-size: 13px;
+  font-weight: bold;
+  outline: none;
+  flex: 0 0 auto;
+  text-align: center;
+  transition: background 0.3s ease;
+  color: #032f61;
+  margin: 0;
+}

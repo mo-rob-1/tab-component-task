@@ -68,3 +68,13 @@ body {
   border-top: 3px solid #06a7a9;
   border-bottom: none;
 }
+
+/* 
+    The .tab-content class defines the styling for the tab content sections. 
+    They are hidden by default using display: none. 
+  */
+.tab-content {
+  display: none;
+  padding: 30px;
+  border-top: none;
+}

@@ -104,3 +104,17 @@ p {
   line-height: 1.6;
   font-size: 14px;
 }
+
+/* 
+    Responsive design for screens that are max 600px wide. 
+    Tabs stack vertically instead of horizontally, and a border is added 
+    between each tab to visually separate them. 
+  */
+@media (max-width: 600px) {
+  .tabs {
+    flex-direction: column;
+  }
+  .tab {
+    border-bottom: 1px solid #ccc;
+  }
+}

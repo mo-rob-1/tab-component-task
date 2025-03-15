@@ -10,6 +10,15 @@
   </head>
   <body>
     <!-- Container that holds the tabs and their corresponding content. -->
-    <div class="tab-container"></div>
+    <div class="tab-container">
+      <!-- This element contains the individual tab buttons. 
+           role="tablist" helps screen readers understand these are tabs. -->
+      <div class="tabs" role="tablist">
+        <!-- Each button is a tab with ARIA attributes to aid accessibility. -->
+        <button class="tab active" role="tab" aria-selected="true" aria-controls="tab1">Terminal 1</button>
+        <button class="tab" role="tab" aria-selected="false" aria-controls="tab2">Terminal 2</button>
+        <button class="tab" role="tab" aria-selected="false" aria-controls="tab3">Terminal 3</button>
+      </div>
+    </div>
   </body>
 </html>

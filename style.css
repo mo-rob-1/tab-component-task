@@ -78,3 +78,11 @@ body {
   padding: 30px;
   border-top: none;
 }
+
+/* 
+    The .tab-content.active class displays the active content section 
+    when its corresponding tab is selected. 
+  */
+.tab-content.active {
+  display: block;
+}

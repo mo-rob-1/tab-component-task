@@ -86,3 +86,21 @@ body {
 .tab-content.active {
   display: block;
 }
+
+/* 
+    The h3 rule sets the color for headings inside the tab content 
+    and adds a small top/bottom margin. 
+  */
+h3 {
+  color: #032f61;
+  margin: 8px 0;
+}
+
+/* 
+      The p rule sets the text color, line spacing, and font size for paragraphs. 
+    */
+p {
+  color: #032f61;
+  line-height: 1.6;
+  font-size: 14px;
+}

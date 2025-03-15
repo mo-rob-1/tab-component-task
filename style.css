@@ -26,3 +26,15 @@ body {
   width: 80%;
   max-width: 800px;
 }
+
+/* 
+    The .tabs class holds all tab buttons in a row. 
+    Gap used to separate the tab buttons visually and remove the default border. 
+  */
+.tabs {
+  display: flex;
+  gap: 2px;
+  background-color: #f3f4f6;
+  border-bottom: none;
+  width: 100%;
+}

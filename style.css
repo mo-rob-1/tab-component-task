@@ -13,3 +13,16 @@ body {
   padding: 20px;
   margin: 0;
 }
+
+/* 
+    The .tab-container class defines the main container for the tabs and tab content. 
+    It specifies a white background, removes border radius and shadows, 
+    and limits the container width for better readability. 
+  */
+.tab-container {
+  background: white;
+  border-radius: 0;
+  box-shadow: none;
+  width: 80%;
+  max-width: 800px;
+}

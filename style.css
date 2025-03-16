@@ -41,7 +41,7 @@ body {
 
 /* 
     The .tab class defines the styling for each individual tab button. 
-    Cursor: pointer for better UX and transition for a smooth hover effect. 
+    Cursor pointer for better UX and transition for a smooth hover effect. 
   */
 .tab {
   padding: 15px 30px;
